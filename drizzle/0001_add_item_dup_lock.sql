@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "items_list_text_ci_uniq" ON "items" USING btree ("list_id",lower(btrim("text")));
